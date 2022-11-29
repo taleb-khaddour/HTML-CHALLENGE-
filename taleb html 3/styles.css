@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #212b2d;
+    color : #b3cdd2;
+}
+
+header {
+   
+    padding: 10px 0;
+   
+}
+
+header nav {
+   display: flex; 
+   justify-content: center;
+   align-items: center;
+   background-color: #333d3f;
+   height: 40px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 0 40px;
+    border-right: 2px solid #fff;
+}
+
+nav a:last-child {
+    padding-right: 0;
+    border-right: none;
+}
+
+.button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 10px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #97aaaf;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 9px rgb(8, 8, 8);
+
+  }
+  
+  .button:hover {background-color: #0b0c0c}
+  
+  .button:active {
+    background-color: #2b0fca;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+.header{
+    
+    background-image: url(IMG-20221129-WA0019.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-size: x-large;
+    color:#f1eded;
+    width: 100%;
+    height: 400px;
+    padding-left: 50px;
+    padding-top: 50px;
+    border-radius: 2.5%;
+   
+    
+
+
+}
+
+aside {
+    max-width: 200px;
+    margin-top: 20px;
+}
+
+.menu {
+    margin-bottom: 20px;
+}
+
+.menu a {
+    padding: 10px;
+    color: #b3cdd2;
+}
+.menu a:hover {
+    
+    color: #0ecaf0;
+}
+
+.menu ul {
+    margin-left: 15px;
+    margin-top: 10px;
+    padding: 10px;
+}
+.menu li{
+    padding-bottom: 2.5px;
+}
+
+
+
+.container{
+    padding: 10px 180px;
+}
+
+.block h2 {
+    margin-bottom: 12px;
+}
+
+section {
+    display: flex;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.content-1 {
+    display: flex;
+}
+
+.gallery h2 {
+    margin-bottom: 10px;
+}
+
+.gallery p {
+    border-top: 2px solid #f7f7f7;
+    padding-top: 10px;
+}
+.subs{
+    border-right: 2px solid #f7f7f7;
+    padding-left: 10px;
+    padding-bottom: 25px;
+}
+.other{
+    padding-left: 10px;
+}
+footer{
+    text-align: center;
+    border-top: 2px solid #f7f7f7;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
